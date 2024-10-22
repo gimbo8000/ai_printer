@@ -12,7 +12,7 @@ this is a simple program that you start say the key word "hey printer". your pri
 
 ## Installation
 
-install with GitHub zip
+install with GitHub zip file
 
 download the zip file
 
