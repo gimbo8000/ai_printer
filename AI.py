@@ -1,5 +1,6 @@
 from gpt4all import GPT4All
 import torch
+#i love imports
 from printer import *
 print("Is CUDA available:", torch.cuda.is_available())
 print("Current device:", torch.cuda.current_device())
