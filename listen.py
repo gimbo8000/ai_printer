@@ -6,6 +6,7 @@ mic = sr.Microphone()
 
 def listen():
     while True:
+        #this ius working yay
         with mic as source:
             recognizer.adjust_for_ambient_noise(source)
             print("Listening for 'Hey printer' command...")
