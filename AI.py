@@ -5,6 +5,7 @@ from printer import *
 print("Is CUDA available:", torch.cuda.is_available())
 print("Current device:", torch.cuda.current_device())
 print("Device name:", torch.cuda.get_device_name(torch.cuda.current_device()))
+#TODO: fix werd demon hex thing
 
 model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf")
 def AI(prompt):

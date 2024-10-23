@@ -1,11 +1,11 @@
 import win32print
 import win32api
 def print_text(text):
-    # Save the text to a temporary file for printing
+    #todo add linux support
     temp_file = "temp_print.txt"
     with open(temp_file, "w") as file:
         file.write(text)
-
+    #todo improve this
     printer_name = win32print.GetDefaultPrinter()
     win32api.ShellExecute(
         0,
