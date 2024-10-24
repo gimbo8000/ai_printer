@@ -5,7 +5,6 @@ recognizer = sr.Recognizer()
 mic = sr.Microphone()
 
 def listen():
-    #todo make this repeat forever
     while True:
         #this ius working yay
         with mic as source:
