@@ -23,7 +23,7 @@ run with python
 
 dependencies
 ```bash
-pip install speechrecognition pywin32 torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+pip install SpeechRecognition pywin32 torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install git+https://github.com/huggingface/transformers.git
 ```
     
