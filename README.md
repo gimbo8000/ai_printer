@@ -25,6 +25,7 @@ dependencies
 ```bash
 pip install  -r requirements.txt
 ```
+or
 ```bash
 pip install SpeechRecognition torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install git+https://github.com/huggingface/transformers.git
