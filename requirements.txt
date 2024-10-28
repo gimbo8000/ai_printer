@@ -38,4 +38,3 @@ tqdm==4.66.5
 transformers @ git+https://github.com/huggingface/transformers.git@049682a5a63042f087fb45ff128bfe281b2ff98b
 typing_extensions==4.12.2
 urllib3==2.2.3
-wxPython==4.2.2
