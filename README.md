@@ -1,7 +1,7 @@
 
 # AI printer
 
-this is a project i made in a few weeks. I am still developing it
+this is a project I made in a few weeks. I am still developing it
 
 this is a simple program that you start say the key word "hey printer". your printer will give you a response in 30 seonds to an hour depending on how good your pc is
 
@@ -22,6 +22,9 @@ run with python
 
 
 dependencies
+```bash
+pip install  -r requirements.txt
+```
 ```bash
 pip install SpeechRecognition torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
 pip install git+https://github.com/huggingface/transformers.git
