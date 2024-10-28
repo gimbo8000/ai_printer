@@ -18,7 +18,7 @@ setup(
     description="A project for AI-assisted printing",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ai_printer",
+    url="https://github.com/gimbo8000/ai_printer",
     classifiers=[
         "Programming Language :: Python :: 3",
         "Operating System :: OS Independent",
