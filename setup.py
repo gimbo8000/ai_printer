@@ -1,16 +1,17 @@
 from setuptools import setup, find_packages
 
+# Read requirements from requirements.txt
+with open("requirements.txt") as f:
+    requirements = f.read().splitlines()
+
 setup(
     name="ai_printer",
     version="0.1",
     packages=find_packages(),
-    install_requires=[
-        "torch",
-        "SpeechRecognition",
-    ],
+    install_requires=requirements,  # Uses the list from requirements.txt
     entry_points={
         'console_scripts': [
-            'ai-printer=ai_printer.main:main',  # Defines a command-line entry point
+            'ai-printer=ai_printer.main:main',
         ],
     },
     author="aaajimypickle",
