@@ -14,8 +14,8 @@ def print_text(text):
     try:
         system = platform.system()
         if system == "Windows":
-            # Use Notepad to print on Windows
-            subprocess.run(['notepad.exe', '/p', tmp_file_path])
+            print("uwu")
+            #subprocess.run(['notepad.exe', '/p', tmp_file_path])
         elif system == "Linux":
             # Use lp for Linux printing
             subprocess.run(['lp', tmp_file_path])
