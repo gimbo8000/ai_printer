@@ -16,7 +16,7 @@ def listen():
                 command = recognizer.recognize_google(audio).lower()
                 print("You said:", command)
 
-                if "hey printer" or "a printer" in command:
+                if "hey printer" in command or "a printer" in command:
                     print("Listening for content to print...")
                     audio = recognizer.listen(source)
                     text = recognizer.recognize_google(audio)
