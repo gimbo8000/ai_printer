@@ -1,5 +1,6 @@
 from listen import *
 from AI import *
+from printer import *
 text = listen()
 #todo make a local web app mabie
 while True:
