@@ -7,7 +7,8 @@ __pycache__/
 # Virtual Environment
 .venv/
 env/
-
+dist/
+src/chatgpt_printer.egg-info/
 # VSCode settings
 .vscode/
 

@@ -1,14 +1,11 @@
-from gpt4all import GPT4All
-import torch
-#i love imports
-from printer import *
-print("Is CUDA available:", torch.cuda.is_available())
-print("Current device:", torch.cuda.current_device())
-print("Device name:", torch.cuda.get_device_name(torch.cuda.current_device()))
-#TODO: fix werd demon hex thing
 
-model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf")
+
+from gpt4all import GPT4All
+
+# Load the model in CPU-only mode
+model = GPT4All("Meta-Llama-3-8B-Instruct.Q4_0.gguf", device="cpu")
+
 def AI(prompt):
     with model.chat_session():
-        responce = model.generate(prompt, max_tokens=1024)
-        return responce
+        response = model.generate(prompt, max_tokens=1024)
+        return response
